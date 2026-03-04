@@ -3,10 +3,17 @@ public class EncontrarElemento {
 
         int[] nums = new int[]{20, 12, 27,5, 9, 53};
         int choose = 5;
+        int indice = 0;
 
-        while (){
 
+
+        for (int i = 0; i < nums.length; i++) {
+            if(nums[i] == 5){
+                indice = i;
+            }
         }
+
+        System.out.println(nums[indice]);
 
     }
 }
